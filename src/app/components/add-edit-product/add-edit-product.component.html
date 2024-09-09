@@ -1,0 +1,47 @@
+<div class="row g-0 bg-body-secondary position-relative" id="todo">
+    <div class="col-md-6 mb-md-0 p-md-4" id="pene">
+        
+        <div class="contenido">
+           
+            <h1>GoFinance</h1>
+            <p>The most popular peer to peer lending at SEA</p>
+            <button type="button" class="btn btn-light">Primary</button>
+
+        </div>
+    </div>
+
+    <div class="col-md-6 p-4 ps-md-0" id="pene2">
+        <div class="centered-login">
+        
+            <div class="login">
+    
+                <div class="body">
+    
+                    <div class="logo">
+                        <img src="../../../assets/img/bienes.png" alt="">
+                    </div>
+    
+                    <h2 style="margin-top: 10px; margin-bottom: 25px;">Añadir Producto</h2>
+    
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" [(ngModel)]="name" autocomplete="false" placeholder="Nombre del Producto">
+                        <label for="floatingInput">Nombre del Producto</label>
+                    </div>
+    
+                    <div class="form-floating mb-3">
+                        <input type="text" [(ngModel)]="description" class="form-control" placeholder="Descripcion del Producto">
+                        <label>Descripcion del Producto</label>
+                    </div>
+    
+                    <button type="button" class="btn btn-primary" style="margin-top: 15px;" (click)="addProduct()">Aceptar</button>
+                    <button type="button" class="btn btn-danger" style="margin-top: 15px; margin-left: 10px;" routerLink="/dashboard">Volver</button>
+                </div>
+    
+            </div>
+        </div>
+    
+    </div>
+
+  </div>
+
+    

@@ -1,0 +1,56 @@
+
+#todo{
+   
+    background-color: white;
+    height: 85%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#pene{
+    
+    border-radius: 8px; /* Bordes redondeados */
+    background-image: url("../../../assets/img/desktop-wallpaper-backgrounds-for-login-page-login-page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    
+    
+}
+
+#pene2{
+    background-color: white;
+
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: white;
+   margin-top: 50PX;
+}
+.body ,h1,button{
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+}
+
+.logo img{
+   height: 300px;
+    
+}
+.body {
+    
+    padding: 50px; /* Espaciado interno para el contenido */
+  }
+  
+
+.contenido{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}

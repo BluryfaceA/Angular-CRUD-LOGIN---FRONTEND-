@@ -1,0 +1,16 @@
+#agregrar{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+#tabla{
+   
+   margin-top: 250px;
+    padding: 50px; /* Espaciado interno para el contenido */
+
+}
+
